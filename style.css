@@ -1,0 +1,110 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./arquivos/bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  transition: 0.4s;
+}
+
+
+.dark-mode{
+  background-color: rgba(0, 0, 0, 0.562);
+
+  h1, p, a{
+    color: #fff !important;
+  }
+  span{
+    color: #ff341e !important;
+  }
+
+  #toggleButton{
+    background-color: #f9f9f9;
+    color: #ff341e;
+  }
+  #toggleButton:hover{
+    background-color: #ff341e;
+    color: #f9f9f9;
+  }
+
+}
+
+
+#toggleButton{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  color: #f9f9f9;
+  background-color: #ff341e;
+  cursor: pointer;
+}
+#toggleButton:hover{
+  background-color: #f9f9f9;
+  color: #ff341e;
+}
+
+
+
+#info {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#info img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  color: #7d7987;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  color: #7d7987;
+
+  font-size: 14px;
+  line-height: 28px;
+
+  margin-bottom: 100px;
+}
+
+span,
+a {
+  color: #c64132;
+  font-weight: bold;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+
+  margin: 0 auto 12px;
+
+  border: 1px #eceff2 dashed;
+}
+
+#logo {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+}
